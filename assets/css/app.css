@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.bg-primary{
+    background-color: #0256D3 !important;
+}
+
+.navbar{
+    font-size: 14px;
+}
+
+.navbar-brand{
+    font-size: 15px;
+}
+
+.form-label{
+    font-weight: 600;
+}
+
+.form-control{
+    border: 0px;
+    padding: 4px 0px;
+    background-color: #FAFBFF;
+    font-style: italic;
+}
+
+.form-select{
+    border: 0px;
+    padding: 4px 0px;
+    background-color: #FAFBFF;
+    font-style: italic;
+}
