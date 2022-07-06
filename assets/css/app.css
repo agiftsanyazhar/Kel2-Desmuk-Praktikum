@@ -329,7 +329,7 @@ footer * {
   color: #ffffff;
 }
 
-/* ================antrian============= */
+/* ==================== Antrean ====================== */
 
 #head {
   background: linear-gradient(180deg, #0256d3 60%, #fafbff 60%);
@@ -367,8 +367,6 @@ footer * {
   min-height: 30vh;
   width: 100%;
   margin-top: 30px;
-  margin-left: -50px;
-  margin-right: -50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
