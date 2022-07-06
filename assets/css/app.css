@@ -278,6 +278,8 @@ footer * {
   background-color: #fafbff;
   color: #00327c;
   text-align: auto;
+
+  box-shadow: 0px -6px 8px 2px rgba(0, 0, 0, 0.05);
 }
 
 .footer-t {
@@ -361,6 +363,60 @@ footer * {
   color: #ffffff;
 }
 
+#head h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 12px;
+  padding-top: 20px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+#head-hstr {
+  background: linear-gradient(180deg, #0256d3 20%, #fafbff 20%);
+  min-height: 30vh;
+  width: 100%;
+}
+
+#head-hstr h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 36px;
+  text-align: justify;
+  letter-spacing: -0.04em;
+  padding-top: 20px;
+
+  color: #ffffff;
+}
+
+#head-hstr h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 12px;
+  padding-top: 10px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+#head-hstr h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 12px;
+  padding-top: 20px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
 #content {
   background-color: #ffff;
   height: 50%;
@@ -405,7 +461,7 @@ footer * {
 #content .head h3 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
   padding-top: 30px;
@@ -418,7 +474,7 @@ footer * {
 #content .head span {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
   padding-top: 30px;
@@ -491,4 +547,29 @@ footer * {
   line-height: 15px;
   margin-top: 110px;
   text-align: center;
+}
+.btn-antrian{
+  background-color: #0256D3;
+  width: 100%;
+  min-height: 8vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 12px;
+  /* identical to box height, or 50% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
 }
