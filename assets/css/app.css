@@ -459,3 +459,36 @@ footer * {
 
   color: #0256d3;
 }
+
+#content .head .scan img{
+  position: absolute;
+  width: 130px;
+  margin-left: 110px;
+  
+  /* identical to box height, or 38% */
+
+
+  color: #0256D3;
+}
+
+#content .head .scan p{
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 3px;
+  margin-top: 40px;
+  margin-left: 120px;
+  
+  /* identical to box height, or 38% */
+
+
+  color: #0256D3;
+}
+
+#content .head .scan h3{
+  font-style: italic;
+  font-weight: 650;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 110px;
+  text-align: center;
+}
